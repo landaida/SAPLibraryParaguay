@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SAPLibraryParaguay
 {
-    enum DocumentStatus
+    public enum DocumentStatus
     {
         Abierto = 'O',
         Cerrado = 'C'
