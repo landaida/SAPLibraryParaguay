@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAPLibraryParaguay.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="tsete" Type="System.String" Scope="User">
+      <Value Profile="(Default)">teste</Value>
+    </Setting>
+    <Setting Name="Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">winserver</Value>
+    </Setting>
+    <Setting Name="DBUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="DBServerType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MSSQL2008</Value>
+    </Setting>
+    <Setting Name="DBPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">raposa28@09</Value>
+    </Setting>
+    <Setting Name="DBName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SBO_SideragroNueva</Value>
+    </Setting>
+    <Setting Name="BOUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">emerson</Value>
+    </Setting>
+    <Setting Name="BOPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0104452</Value>
+    </Setting>
+    <Setting Name="reportPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">reports\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
