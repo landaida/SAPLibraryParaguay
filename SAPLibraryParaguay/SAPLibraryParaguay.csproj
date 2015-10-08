@@ -30,11 +30,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.CrystalReports.Engine.1.0.0\lib\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\Crystal.Reports.Essentials.13.0.2000.0\lib\CrystalDecisions.ReportSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\Crystal.Reports.Essentials.13.0.2000.0\lib\CrystalDecisions.Shared.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\Crystal.Reports.Essentials.13.0.2000.0\lib\CrystalDecisions.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -57,6 +74,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="ReportUtils.cs" />
     <Compile Include="ToStringBuilder.cs" />
     <Compile Include="Util.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
